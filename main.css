@@ -1,3 +1,5 @@
+
+
 body {
 	background-image: url("space.jpg");
 	background-size: cover;
@@ -8,9 +10,29 @@ body, html {
   height: 100%;
   margin: 0;
   padding: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Georgia', serif;
 }
 
+h3 {
+	font-family: 'Audiowide' , sans-serif;
+	color: #b31aff;
+}
+.poster img {
+	float: left;
+	width: 334px;
+	height: 500px;
+	margin:  30px;
+}
+
+.poster2 img {
+	float: right;
+	width: 334px;
+	height: 500px;
+	margin:  30px;
+}
+	
+	
+	
 .wrapper {
   width: 430px;
   margin: 0 auto;
@@ -30,6 +52,8 @@ body, html {
   text-align: center;
   padding-top: 25px;
   font-size: 20px;
+  font-family: 'Audiowide' , sans-serif;
+  color: #b31aff;
 }
 
 .questions {
@@ -39,6 +63,8 @@ body, html {
   border-top: 1px solid #FFFFFF;
   border-bottom: 1px solid #FFFFFF;
   padding: 20px;
+  font-family: 'Audiowide' , sans-serif;
+  color: #b31aff;
 }
 
 .answers div {
@@ -48,7 +74,7 @@ body, html {
 
 .answers div:hover {
   cursor: pointer;
-  color: #FBCB43;
+  color:  #99ffcc;
 }
 
 .answers {
